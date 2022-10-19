@@ -5,8 +5,10 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[ShipDateKey] [int] NOT NULL,
 	[CustomerKey] [int] NOT NULL,
 	[PromotionKey] [int] NOT NULL,
+    ASDF
 	[CurrencyKey] [int] NOT NULL,
 	[SalesTerritoryKey] [int] NOT NULL,
+    sdfdsfsf
 	[SalesOrderNumber] [nvarchar](20) NOT NULL,
 	[SalesOrderLineNumber] [tinyint] NOT NULL,
 	[OrderQuantity] [smallint] NOT NULL,
