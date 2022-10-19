@@ -17,7 +17,6 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[ProductStandardCost] [money] NOT NULL,
 	[TotalProductCost] [money] NOT NULL,
 	[SalesAmount] [money] NOT NULL,
-    [NewColumn] nvarchar(max),
 	[TaxAmt] [money] NOT NULL,
 	[Freight] [money] NOT NULL,
 	[CarrierTrackingNumber] [nvarchar](25) NULL,
