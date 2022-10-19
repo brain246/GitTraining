@@ -18,7 +18,6 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[TotalProductCost] [money] NOT NULL,
 	[SalesAmount] [money] NOT NULL,
 	[TaxAmt] [money] NOT NULL,
-	[Freight] [money] NOT NULL,
 	[CarrierTrackingNumber] [nvarchar](25) NULL,
 	[CustomerPONumber] [nvarchar](25) NULL,
 	[OrderDate] [datetime] NULL,
